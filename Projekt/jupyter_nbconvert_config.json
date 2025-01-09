@@ -1,0 +1,10 @@
+{
+    "TagRemovePreprocessor": {
+      "remove_cell_tags": ["remove_cell"]
+    },
+    "Exporter": {
+      "preprocessors": ["nbconvert.preprocessors.TagRemovePreprocessor"],
+      "remove_all_outputs_tags": ["hide"],
+    "remove_input_tags": ["hide_input","hide"]
+    }
+  }
